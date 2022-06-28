@@ -1,0 +1,193 @@
+body {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.nav_a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav_ar {
+    color: rgb(255, 113, 137);
+    text-decoration: none;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 20px;
+
+}
+
+.graphic {
+   width: 100%;
+   height: 90%;
+} 
+
+
+
+.center {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   
+} 
+
+#pink {
+    color: rgb(255, 113, 137) ;
+
+}
+
+.big {
+    font-size: 75px;
+        
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 10px;
+    width: 150px;
+    border-color: pink  ;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.color_bck {
+    background-image: url(./assets/background.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.nft-pic {
+    width: 25%;
+}
+
+
+
+
+.flex-containernft {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    white-space: nowrap;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .nft-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    background-color: rgb(237, 237, 255);
+    border-radius: 5px;
+    padding: 10px;
+    
+  }
+
+#padd {
+    padding: 20px;
+    padding-top: 50px;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+ #black {
+    color: black;
+ }
+
+
+.logo {
+    padding: 30px;
+}
+
+.litxt {
+    font-weight: 900;
+}
+
+
+ ul {
+    list-style-type: none;
+ }
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+ .none {
+    display: none;
+ }
+
+ @media screen and (min-width: 768px) {
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5%;
+    }
+
+    #burger {
+        display: none;
+    }
+
+    .none {
+        display: flex;
+    }
+
+    .grid-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .flex-containernft {
+        justify-content: space-between;
+    }
+
+    .section-last {
+        display: flex;
+        justify-content: space-between;
+        
+       
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .tarpai {
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+ }
+
+
+ 
+
+
